@@ -22,6 +22,10 @@ public class Post {
         this.comments = new ArrayList<Comment>();
     }
 
+    public Post() {
+        this.comments = new ArrayList<Comment>();
+    }
+
     public String getUser() {
         return user;
     }
