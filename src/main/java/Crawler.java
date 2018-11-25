@@ -33,10 +33,6 @@ public class Crawler {
             String caption = commentSection.get(0).getText();
 
             WebElement moreCommentsButton = commentSection.get(1);
-//            for (WebElement element : elements) {
-//                if (element.getText().equals("Load more comments"))
-//                    moreCommentsButton = element;
-//            }
 
             try {
                 while (moreCommentsButton != null && moreCommentsButton.isDisplayed() && moreCommentsButton.isEnabled()) {
